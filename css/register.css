@@ -9,6 +9,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 50px;
   }
   
   .title {
@@ -117,7 +118,7 @@
     transform: .3s ease;
     cursor: pointer;
     width: 105%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   
   .submit:hover {

@@ -11,35 +11,35 @@
 </head>
 <body>
     <div class="sec-2">
-        <form class="form">
+        <form class="form"  action="create_account.php" method="POST">
             <p class="title">Register </p>
             <p class="message">Signup now and get full access to our exclusive features of loan buddy. </p>
                 <div class="flex">
                 <label>
-                    <input required="" placeholder="" type="text" class="input">
+                    <input required="" placeholder="" type="text" class="input" name="f_name">
                     <span>Firstname</span>
                 </label>
 
 
         
                 <label>
-                    <input required="" placeholder="" type="text" class="input">
+                    <input required="" placeholder="" type="text" class="input"  name="l_name">
                     <span>Lastname</span>
                 </label>
                 </div>  
                     
             <label>
-                <input required="" placeholder="" type="email" class="input">
+                <input required="" placeholder="" type="email" class="input" name="email">
                 <span>Email</span>
             </label>
 
             <label>
-                <input required="" placeholder="" type="password" class="input">
+                <input required="" placeholder="" type="password" class="input" name="reg_no">
                 <span>Registration Number</span>
             </label>
             
             <label>
-                <input required="" placeholder="" type="text" class="input">
+                <input required="" placeholder="" type="text" class="input" name="tel">
                 <span>Phone number</span>
             </label> 
 
@@ -53,14 +53,15 @@
             </label>  -->
                 
             <label>
-                <input required="" placeholder="" type="password" class="input">
+                <input required="" placeholder="" type="password" class="input" name="pwd">
                 <span>Password</span>
             </label>
             <label>
-                <input required="" placeholder="" type="password" class="input">
+                <input required="" placeholder="" type="password" class="input" name="c_pwd">
                 <span>Confirm password</span>
             </label>
-            <button class="submit">Submit</button>
+            <input type="submit" name="send" value="SUBMIT"  />
+
             <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
         </form>
     </div>
